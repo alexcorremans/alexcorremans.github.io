@@ -1,5 +1,33 @@
+.navbar-brand {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #002366 !important;
+}
+
+.nav-link {
+  color: #002366 !important;
+}
+
 .home-bg {
   background-image: url("home.jpeg");
   height: 350px;
   background-size: 100% 100%;
+}
+
+.headline {
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 34px;
+}
+
+.paragraph {
+  font-size: 14px;
+}
+
+.home-text {
+  max-width: 600px;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif !important;
+  color: #002366;
 }
