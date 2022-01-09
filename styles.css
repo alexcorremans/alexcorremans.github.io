@@ -16,6 +16,17 @@
   background-size: 100% 100%;
 }
 
+@media (max-width: 576px) {
+  .home-bg {
+    background-image: url("home-mobile.jpg");
+    height: 300px;
+  }
+
+  #navbar-custom .nav-link {
+    color: rgba(0,35,105)
+  }
+}
+
 .headline {
   font-size: 28px;
   font-weight: bold;
