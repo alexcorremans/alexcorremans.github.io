@@ -17,31 +17,31 @@
 }
 
 .home-bg {
-  background-image: url("home.jpg");
+  background-image: url("images/home.jpg");
   height: 350px;
   background-size: 100% 100%;
 }
 
 .bio-bg {
-  background-image: url("bio.jpg");
+  background-image: url("images/bio.jpg");
   height: 350px;
   background-size: 100% 100%;
 }
 
 .resume-bg {
-  background-image: url("resume.jpg");
+  background-image: url("images/resume.jpg");
   height: 350px;
   background-size: 100% 100%;
 }
 
 @media (max-width: 576px) {
   .home-bg {
-    background-image: url("home-mobile.jpg");
+    background-image: url("images/home-mobile.jpg");
     height: 250px;
   }
 
   .bio-bg {
-    background-image: url("bio-mobile.jpg");
+    background-image: url("images/bio-mobile.jpg");
     height: 250px;
   }
 
