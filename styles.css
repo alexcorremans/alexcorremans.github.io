@@ -10,8 +10,24 @@
   color: rgba(0,35,105);
 }
 
+#navbar-custom .nav-link.active {
+  color: rgba(0,35,105);
+}
+
 .home-bg {
   background-image: url("home.jpg");
+  height: 350px;
+  background-size: 100% 100%;
+}
+
+.bio-bg {
+  background-image: url("bio.jpg");
+  height: 350px;
+  background-size: 100% 100%;
+}
+
+.resume-bg {
+  background-image: url("resume.jpg");
   height: 350px;
   background-size: 100% 100%;
 }
