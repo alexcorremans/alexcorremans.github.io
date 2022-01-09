@@ -1,9 +1,11 @@
 #navbar-custom .navbar-brand {
   color: rgba(0,35,105);
+  font-weight: normal;
 }
 
 #navbar-custom .nav-link {
-  color: rgba(0,35,105,.75)
+  color: rgba(0,35,105,.7);
+  font-weight: normal;
 }
 
 #navbar-custom .nav-link:hover {
@@ -35,7 +37,12 @@
 @media (max-width: 576px) {
   .home-bg {
     background-image: url("home-mobile.jpg");
-    height: 300px;
+    height: 250px;
+  }
+
+  .bio-bg {
+    background-image: url("bio-mobile.jpg");
+    height: 250px;
   }
 
   #navbar-custom .nav-link {
@@ -43,13 +50,16 @@
   }
 }
 
-.headline {
-  font-size: 28px;
-  font-weight: bold;
+.main-container {
   padding-top: 34px;
 }
 
-.paragraph {
+.headline {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+p {
   font-size: 14px;
 }
 
@@ -60,6 +70,7 @@
 a {
   color: rgba(0,35,105);
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
@@ -71,12 +82,16 @@ body {
   color: rgba(0,35,105);
 }
 
+.profile-pic {
+  max-width: 200px;
+}
+
 .footer {
-  font-size: 14px;
   color: white;
   background-color: rgba(0,35,105,.5);
 }
 
 .a-footer {
   color: white;
+  font-weight: normal;
 }
