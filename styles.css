@@ -1,10 +1,12 @@
-.navbar-brand {
-  font-family: 'Source Sans Pro', sans-serif;
-  color: #002366 !important;
+.navbar-custom .navbar-brand {
+  color: rgba(0,35,105);
 }
 
-.nav-link {
-  color: #002366 !important;
+.navbar-custom .nav-link {
+  color: rgba(0,35,105,.75);
+}
+.navbar-custom .nav-link:hover {
+  color: rgba(0,35,105);
 }
 
 .home-bg {
@@ -27,7 +29,16 @@
   max-width: 600px;
 }
 
+a {
+  color: rgba(0,35,105);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(0,35,105,.8);
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif !important;
-  color: #002366;
+  color: rgba(0,35,105);
 }
