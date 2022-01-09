@@ -52,6 +52,7 @@
 
 .main-container {
   padding-top: 34px;
+  max-width: 950px;
 }
 
 .headline {
