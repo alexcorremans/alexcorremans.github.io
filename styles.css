@@ -17,36 +17,36 @@
 }
 
 .home-bg {
-  background-image: url("images/home.jpg");
+  background-image: url("/images/home.jpg");
   height: 350px;
   background-size: 100% 100%;
 }
 
 .bio-bg {
-  background-image: url("images/bio.jpg");
+  background-image: url("/images/bio.jpg");
   height: 350px;
   background-size: 100% 100%;
 }
 
 .resume-bg {
-  background-image: url("images/resume.jpg");
+  background-image: url("/images/resume.jpg");
   height: 350px;
   background-size: 100% 100%;
 }
 
 @media (max-width: 576px) {
   .home-bg {
-    background-image: url("images/home-mobile.jpg");
+    background-image: url("/images/home-mobile.jpg");
     height: 250px;
   }
 
   .bio-bg {
-    background-image: url("images/bio-mobile.jpg");
+    background-image: url("/images/bio-mobile.jpg");
     height: 250px;
   }
 
   .resume-bg {
-    background-image: url("images/resume-mobile.jpg");
+    background-image: url("/images/resume-mobile.jpg");
     height: 250px;
   }
 
