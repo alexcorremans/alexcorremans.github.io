@@ -3,6 +3,10 @@
   font-weight: normal;
 }
 
+#navbar-custom .navbar-brand:hover {
+  color: rgba(0,35,105,.8);
+}
+
 #navbar-custom .nav-link {
   color: rgba(0,35,105);
   font-weight: normal;
@@ -14,45 +18,92 @@
 
 #navbar-custom .nav-link.active {
   color: rgba(0,35,105);
-  font-weight: bold;
 }
 
-.home-bg {
+.home-bg, .bio-bg, .resume-bg {
+  height: 350px;
+  position: relative;
+}
+
+.home-bg::after {
+  content: "";
   background-image: url("/images/home.jpg");
-  height: 350px;
   background-size: 100% 100%;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
-.bio-bg {
+.bio-bg::after {
+  content: "";
   background-image: url("/images/bio.jpg");
-  height: 350px;
   background-size: 100% 100%;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
-.resume-bg {
+.resume-bg::after {
+  content: "";
   background-image: url("/images/resume.jpg");
-  height: 350px;
   background-size: 100% 100%;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
 }
 
 @media (max-width: 576px) {
-  .home-bg {
+  .home-bg, .bio-bg, .resume-bg {
+    height: 250px;
+    position: relative;
+  }
+  
+  .home-bg::after {
+    content: "";
     background-image: url("/images/home-mobile.jpg");
-    height: 250px;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
   }
 
-  .bio-bg {
+  .bio-bg::after {
+    content: "";
     background-image: url("/images/bio-mobile.jpg");
-    height: 250px;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
   }
 
-  .resume-bg {
+  .resume-bg::after {
+    content: "";
     background-image: url("/images/resume-mobile.jpg");
-    height: 250px;
-  }
-
-  #navbar-custom .nav-link {
-    color: rgba(0,35,105)
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
   }
 }
 
