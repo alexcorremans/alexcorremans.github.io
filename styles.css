@@ -117,12 +117,20 @@
   font-weight: bold;
 }
 
+.paragraph {
+  font-size: 16px;
+}
+
 p {
   font-size: 14px;
 }
 
 .home-text {
   max-width: 600px;
+}
+
+.home-img {
+
 }
 
 a {
@@ -140,7 +148,7 @@ body {
   color: rgba(0,35,105);
 }
 
-.profile-pic {
+.profile-img {
   max-width: 190px;
 }
 

@@ -21,13 +21,7 @@
   </head>
   <body class="d-flex flex-column h-100">
     <header>
-      {% if page.nav-name == "bio" %}
-      <div class="container-fluid bio-bg">
-      {% elsif page.nav-name == 'resume' %}
-      <div class="container-fluid resume-bg">
-      {% else %}
-      <div class="container-fluid home-bg">
-      {% endif %}
+      <div class="container-fluid nav-container">
         <nav id="navbar-custom" class="navbar navbar-expand-sm navbar-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="/">Alexandra Corremans</a>
@@ -71,6 +65,8 @@
             </div>
           </div>
         </nav>
+      </div>
+      <div class="container-fluid pt-sm-5 pb-sm-5">
       </div>
     </header>
     <main class="flex-shrink-0">
