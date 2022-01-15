@@ -110,8 +110,11 @@
 }
 
 .main-container {
-  padding-top: 34px;
   max-width: 950px;
+}
+
+.home-container {
+  padding-top: 34px;
 }
 
 .headline {
