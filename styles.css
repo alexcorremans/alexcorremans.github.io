@@ -1,23 +1,25 @@
 #navbar-custom .navbar-brand {
-  color: rgba(33,43,83);
+
+  color: rgba(1,137,140);
   font-weight: normal;
 }
 
 #navbar-custom .navbar-brand:hover {
-  color: rgba(33,43,83,.7);
+  color: rgba(99,193,197);
 }
 
 #navbar-custom .nav-link {
-  color: rgba(33,43,83,.55);
+  color: rgba(1,137,140);
   font-weight: normal;
 }
 
 #navbar-custom .nav-link:hover {
-  color: rgba(33,43,83,.7);
+  color: rgba(99,193,197);
 }
 
 #navbar-custom .nav-link.active {
-  color: rgba(33,43,83);
+  color: rgba(1,137,140);
+  font-weight: bold;
 }
 
 .home-bg, .bio-bg, .resume-bg {
@@ -115,6 +117,12 @@
 .headline {
   font-size: 28px;
   font-weight: bold;
+  color: rgba(1,137,140);
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .paragraph {
@@ -134,12 +142,13 @@ p {
 }
 
 a {
-  color: rgba(99,193,197);
+  color: rgba(33,43,83);
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
-  color: rgba(33,43,83,.7);
+  color: rgba(99,193,197);
 }
 
 body {
@@ -190,14 +199,14 @@ body {
 }
 
 .p-footer {
-  color: rgba(33,43,83,.55);
+  color: rgba(1,137,140);
 }
 
 .a-footer {
   font-weight: normal;
-  color: rgba(33,43,83,.55);
+  color: rgba(1,137,140);
 }
 
 .a-footer:hover {
-  color: rgba(33,43,83,.7);
+  color: rgba(99,193,197);
 }
