@@ -1,23 +1,23 @@
 #navbar-custom .navbar-brand {
-  color: rgba(0,29,86);
+  color: rgba(33,43,83);
   font-weight: normal;
 }
 
 #navbar-custom .navbar-brand:hover {
-  color: rgba(0,35,105,.8);
+  color: rgba(33,43,83,.7);
 }
 
 #navbar-custom .nav-link {
-  color: rgba(0,35,105);
+  color: rgba(33,43,83,.55);
   font-weight: normal;
 }
 
 #navbar-custom .nav-link:hover {
-  color: rgba(0,35,105,.8);
+  color: rgba(33,43,83,.7);
 }
 
 #navbar-custom .nav-link.active {
-  color: rgba(0,35,105);
+  color: rgba(33,43,83);
 }
 
 .home-bg, .bio-bg, .resume-bg {
@@ -134,18 +134,17 @@ p {
 }
 
 a {
-  color: rgba(0,35,105);
+  color: rgba(99,193,197);
   text-decoration: none;
-  font-weight: bold;
 }
 
 a:hover {
-  color: rgba(0,35,105,.8);
+  color: rgba(33,43,83,.7);
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif !important;
-  color: rgba(0,35,105);
+  color: rgba(33,43,83);
 }
 
 .profile-img {
@@ -169,7 +168,7 @@ body {
 }
 
 .table {
-  color: rgba(0,35,105);
+  color: rgba(33,43,83);
 }
 
 .custom-table td {
@@ -182,15 +181,23 @@ body {
 }
 
 #carousel-custom [data-bs-target] {
-  background-color: rgba(0,35,105);
+  background-color: rgba(33,43,83);
 }
 
 .footer {
   color: white;
-  background-color: rgba(0,35,105,.4);
+  background-color: rgba(33,43,83,.4);
+}
+
+.p-footer {
+  color: rgba(33,43,83,.55);
 }
 
 .a-footer {
-  color: white;
   font-weight: normal;
+  color: rgba(33,43,83,.55);
+}
+
+.a-footer:hover {
+  color: rgba(33,43,83,.7);
 }
