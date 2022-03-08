@@ -38,5 +38,3 @@ function displayClocks() {
 
 window.onload = displayClocks();
 setInterval(displayClocks, 1000);
-
-// console.log(now.offsetNameLong);
