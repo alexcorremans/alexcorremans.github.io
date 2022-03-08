@@ -113,3 +113,39 @@ body {
 .clock {
   font-size: 50px;
 }
+
+.before-dawn {
+  background-color: #16498a;
+}
+
+.dawn {
+  background-color: #5995b7;
+}
+
+.early-morning {
+  background-color: #76ccf1;
+}
+
+.morning {
+  background-color: #b8e4d7;
+}
+
+.lunch {
+  background-color: #fafbbd;
+}
+
+.afternoon {
+  background-color: #fde050;
+}
+
+.sunset {
+  background-color: #f1b351;
+}
+
+.evening {
+  background-color: #062b79;
+}
+
+.night {
+  background-color: #031e58;
+}
