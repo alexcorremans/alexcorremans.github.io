@@ -1,7 +1,7 @@
 var DateTime = luxon.DateTime;
 
 function generateDT(tzString) {
-    return DateTime.now().setZone(tzString);
+    return DateTime.now().setLocale('en-GB').setZone(tzString);
 }
 
 function displayClocks() {
