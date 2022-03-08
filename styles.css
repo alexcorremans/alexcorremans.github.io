@@ -124,12 +124,12 @@ body {
   color: #ffffff;
 }
 
-.early-morning {
+.morning {
   background-color: #76ccf1;
   color: #031e58;
 }
 
-.morning {
+.late-morning {
   background-color: #b8e4d7;
   color: #031e58;
 }
@@ -144,9 +144,14 @@ body {
   color: #031e58;
 }
 
-.sunset {
+.late-afternoon {
   background-color: #f1b351;
   color: #031e58;
+}
+
+.sunset {
+  background-color: #804d7a;
+  color: #ffffff;
 }
 
 .evening {
@@ -155,6 +160,6 @@ body {
 }
 
 .night {
-  background-color: #083166;
+  background-color: #052042;
   color: #ffffff;
 }

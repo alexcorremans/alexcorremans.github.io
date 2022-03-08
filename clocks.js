@@ -5,27 +5,26 @@ function generateDT(tzString) {
 }
 
 function getClass(dt) {
-    if (dt.hour >= 22 || dt.hour < 4) {
-        return "night";
-    } else if (dt.hour >=4 && dt.hour < 6) {
+    if (dt.hour >=4 && dt.hour < 6) {
         return "before-dawn";
-    } else if (dt.hour >=6 && dt.hour < 7) {
-        console.log("dawn");
+    } else if (dt.hour >=6 && dt.hour < 8) {
         return "dawn";
-    } else if (dt.hour >=7 && dt.hour < 9) {
-        return "early-morning";
-    } else if (dt.hour >=9 && dt.hour < 11) {
+    } else if (dt.hour >=8 && dt.hour < 10) {
         return "morning";
-    } else if (dt.hour >=11 && dt.hour < 13) {
+    } else if (dt.hour >=10 && dt.hour < 12) {
+        return "late-morning";
+    } else if (dt.hour >=12 && dt.hour < 14) {
         return "lunch";
-    } else if (dt.hour >=13 && dt.hour < 16) {
+    } else if (dt.hour >=14 && dt.hour < 16) {
         return "afternoon";
     } else if (dt.hour >=16 && dt.hour < 18) {
+        return "late-afternoon";
+    } else if (dt.hour >=18 && dt.hour < 20) {
         return "sunset";
-    } else if (dt.hour >=18 && dt.hour < 22) {
+    } else if (dt.hour >=20 && dt.hour < 22) {
         return "evening";
     } else {
-        return "lunch";
+        return "night";
     }
 }
 
