@@ -5,9 +5,7 @@ function generateDT(tzString) {
 }
 
 function getClass(dt) {
-    if (dt.hour >=4 && dt.hour < 6) {
-        return "before-dawn";
-    } else if (dt.hour >=6 && dt.hour < 8) {
+    if (dt.hour >=6 && dt.hour < 8) {
         return "dawn";
     } else if (dt.hour >=8 && dt.hour < 10) {
         return "morning";
