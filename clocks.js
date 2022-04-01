@@ -17,8 +17,8 @@ const timeZones = {
   },
   3: {
     timezone: "Europe/Berlin",
-    name: "Berlin",
-    team: "Michal"
+    name: "Europe",
+    team: "Michal, Alessandro"
   },
   4: {
     timezone: "Asia/Dubai",
