@@ -27,8 +27,8 @@ const timeZones = {
   },
   5: {
     timezone: "Australia/Sydney",
-    name: "Sydney",
-    team: "Alex"
+    name: "Australia",
+    team: "Alex, Neal"
   }
 }
 
