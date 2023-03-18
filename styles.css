@@ -109,3 +109,7 @@ body {
 .a-footer:hover {
   color: rgba(99,193,197);
 }
+
+a.normal {
+  font-weight: normal;
+}
